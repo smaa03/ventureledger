@@ -1,0 +1,3 @@
+const settingsForm=document.querySelector('#settingsForm'),settingsMessage=document.querySelector('#settingsMessage');
+const saved=JSON.parse(localStorage.getItem('ventureledger-settings')||'null');if(saved)Object.entries(saved).forEach(([key,value])=>{const field=settingsForm.elements[key];if(field)field.type==='checkbox'?field.checked=value:field.value=value});
+settingsForm.addEventListener('submit',event=>{event.preventDefault();const data=Object.fromEntries(new FormData(settingsForm));data.validationAlerts=settingsForm.validationAlerts.checked;data.weeklyDigest=settingsForm.weeklyDigest.checked;localStorage.setItem('ventureledger-settings',JSON.stringify(data));settingsMessage.textContent='Your settings have been saved.'});
