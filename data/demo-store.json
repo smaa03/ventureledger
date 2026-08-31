@@ -1,0 +1,77 @@
+{
+    "companies": [
+        {
+            "id": 1,
+            "name": "Lattice Health",
+            "sector": "Healthtech",
+            "stage": "Series A",
+            "arr": 2800000,
+            "previous_arr": 2100000,
+            "runway_months": 18,
+            "status": "validated",
+            "updated_at": "2026-07-16 09:00:00"
+        },
+        {
+            "id": 2,
+            "name": "ParcelPilot",
+            "sector": "Logistics",
+            "stage": "Seed",
+            "arr": 920000,
+            "previous_arr": 710000,
+            "runway_months": 14,
+            "status": "review",
+            "updated_at": "2026-07-16 10:00:00"
+        },
+        {
+            "id": 3,
+            "name": "Aurora Grid",
+            "sector": "Climate",
+            "stage": "Series B",
+            "arr": 5100000,
+            "previous_arr": 4700000,
+            "runway_months": 22,
+            "status": "validated",
+            "updated_at": "2026-07-16 11:00:00"
+        },
+        {
+            "id": 4,
+            "name": "Kite Finance",
+            "sector": "Fintech",
+            "stage": "Pre-seed",
+            "arr": 380000,
+            "previous_arr": 260000,
+            "runway_months": 9,
+            "status": "risk",
+            "updated_at": "2026-07-16 12:00:00"
+        }
+    ],
+    "submissions": [
+        {
+            "id": 1,
+            "company_id": 2,
+            "period_label": "July 2026 revenue",
+            "reported_revenue": 920000,
+            "evidence_reference": "Stripe report \u2014 July 2026",
+            "source_type": "Stripe",
+            "review_status": "pending"
+        },
+        {
+            "id": 2,
+            "company_id": 4,
+            "period_label": "July 2026 revenue",
+            "reported_revenue": 380000,
+            "evidence_reference": "Bank statement \u2014 July 2026",
+            "source_type": "Bank statement",
+            "review_status": "pending"
+        }
+    ],
+    "users": [
+        {
+            "id": 1,
+            "name": "ali",
+            "email": "smaa@gmail.com",
+            "password_hash": "$2y$10$sZbAbmiaF2fXt28kXTUtbuQU9xMv\/wgnG40iy941zXgJTGM7itIbK",
+            "created_at": "2026-08-27T02:37:49+02:00"
+        }
+    ]
+}
